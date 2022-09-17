@@ -1,0 +1,23 @@
+.main-container {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 150px;
+    grid-auto-flow: row;
+    gap: 25px;
+    height: 100vh;
+    align-content: center;
+}
+
+.task {
+    background-color: brown;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.user-info {
+    background-color: lightblue;
+    height: 100%;
+    border-radius: 10%;
+    grid-row: 1 / 3
+}
